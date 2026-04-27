@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dining Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="navbar navbar-dark bg-dark p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Campus Life Super App</a>
+    <div>
+      <a href="events.html" class="btn btn-light btn-sm">Events</a>
+      <a href="weather.html" class="btn btn-light btn-sm">Weather</a>
+      <a href="dining.html" class="btn btn-light btn-sm">Dining</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main" class="container mt-5">
+
+  <h2 class="text-center mb-4">Campus Dining Finder</h2>
+
+  <div class="card p-4">
+
+    <label for="mealInput">Search Meal</label>
+    <input type="text" id="mealInput" class="form-control" placeholder="Search meal">
+
+    <button id="searchMealBtn" class="btn btn-warning mt-2">Search</button>
+
+    <div id="mealResults" class="mt-4"></div>
+
+  </div>
+
+</main>
+
+</body>
+</html>
