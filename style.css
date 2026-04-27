@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Accessibility skip link */
+.skip-link {
+  position: absolute;
+  left: -999px;
+}
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+  background: black;
+  color: white;
+  padding: 8px;
+  z-index: 1000;
+}
+
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Buttons spacing */
+button {
+  margin-top: 10px;
+}
+
+/* Better spacing for sections */
+.container {
+  padding-bottom: 40px;
+}
